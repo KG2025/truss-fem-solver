@@ -49,6 +49,7 @@ Run a specific load case from the command line:
 
 ```bash
 python main.py --case base_case
+```bash
 
 Available load cases:
 

@@ -44,6 +44,15 @@ The project produces:
 - deformed shape plot
 
 ## How to run
-```bash
-python main.py
 
+Run a specific load case from the command line:
+
+>> python main.py --case base_case
+
+Available load cases:
+
+base_case
+left_only
+right_only
+
+After running the command, plots are generated of initial and deformed structure. Close the plot for the next plot.

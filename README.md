@@ -47,12 +47,13 @@ The project produces:
 
 Run a specific load case from the command line:
 
->> python main.py --case base_case
+```bash
+python main.py --case base_case
 
 Available load cases:
 
-base_case
-left_only
-right_only
+- base_case
+- left_only
+- right_only
 
 After running the command, plots are generated of initial and deformed structure. Close the plot for the next plot.
